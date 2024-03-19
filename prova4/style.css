@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://w.forfun.com/fetch/df/df5391fee5683f2034ca45e1c4e4605a.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fundo {
+    background-color: black;
+    color: white;
+}
+
+.caixa {
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+}
