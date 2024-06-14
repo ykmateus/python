@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjetas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de Gorjetas</h1>
+        <label for="total-conta">Total da Conta:</label>
+        <input type="number" id="total-conta" placeholder="Digite o valor total da conta" step="0.01" required>
+        <br><br>
+        <label for="qualidade-servico">Qualidade do Serviço:</label>
+        <select id="qualidade-servico">
+            <option value="0.2">Bom (20%)</option>
+            <option value="0.15">Regular (15%)</option>
+            <option value="0.1">Ruim (10%)</option>
+        </select>
+        <br><br>
+        <button onclick="calcularGorjeta()">Calcular Gorjeta</button>
+        <br><br>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
